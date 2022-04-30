@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Categories on Ancordss-Blog!</title>
+    <link>https://ancordss.github.io/categories/</link>
+    <description>Recent content in Categories on Ancordss-Blog!</description>
+    <image>
+      <url>https://avatars.githubusercontent.com/u/87324382?s=400&u=3a0cbb2958a9346ac0d43164be8903afb12a511e&v=4</url>
+      <link>https://avatars.githubusercontent.com/u/87324382?s=400&u=3a0cbb2958a9346ac0d43164be8903afb12a511e&v=4</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sat, 30 Apr 2022 16:49:30 +0000</lastBuildDate><atom:link href="https://ancordss.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Development</title>
+      <link>https://ancordss.github.io/categories/development/</link>
+      <pubDate>Sat, 30 Apr 2022 16:49:30 +0000</pubDate>
+      
+      <guid>https://ancordss.github.io/categories/development/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
