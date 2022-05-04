@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>fast on Ancordss-Blog!</title>
-    <link>https://ancordss.github.io/tags/fast/</link>
-    <description>Recent content in fast on Ancordss-Blog!</description>
+    <title>Automatitation on Ancordss-Blog!</title>
+    <link>https://ancordss.github.io/categories/automatitation/</link>
+    <description>Recent content in Automatitation on Ancordss-Blog!</description>
     <image>
       <url>https://avatars.githubusercontent.com/u/87324382?s=400&u=3a0cbb2958a9346ac0d43164be8903afb12a511e&v=4</url>
       <link>https://avatars.githubusercontent.com/u/87324382?s=400&u=3a0cbb2958a9346ac0d43164be8903afb12a511e&v=4</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 04 May 2022 16:57:32 +0000</lastBuildDate><atom:link href="https://ancordss.github.io/tags/fast/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 04 May 2022 16:57:32 +0000</lastBuildDate><atom:link href="https://ancordss.github.io/categories/automatitation/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Iniciando con Ansible</title>
       <link>https://ancordss.github.io/post/ansible1/</link>
@@ -20,16 +20,6 @@
 para que funcione bien tienes que tener un servidor al cual conectarte con ssh en mi caso estoy usando uno que cree con una maquin virtual
 comando para probar un ping ssh usuario@ip -p puerto en mi caso es
 ssh anco@192.168.1.8 -p 22 si todo sale bien ahora podras controlar el servidor desde tu maquina.</description>
-    </item>
-    
-    <item>
-      <title>Creating Hugo Website on Archlinux</title>
-      <link>https://ancordss.github.io/post/creating-hugo-website/</link>
-      <pubDate>Sat, 30 Apr 2022 16:49:30 +0000</pubDate>
-      
-      <guid>https://ancordss.github.io/post/creating-hugo-website/</guid>
-      <description>this is the second page i make with hugo this is my blog and my website in this short post i will show you how to create a page with hugo in linux so let&amp;rsquo;s start Step 1 install Hugo - Pacman -Sy hugo Step 2 create a new site - hugo new site quickstart Step 3 Add a theme (you can go to themes.gohugo.io/ and search for one)
-cd quickstart git init git submodule add https://github.</description>
     </item>
     
   </channel>
