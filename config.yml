@@ -52,13 +52,23 @@ params:
   assets:
     # disableHLJS: true # to disable highlight.js
     # disableFingerprinting: true
-    favicon: "<link / abs url>"
-    favicon16x16: "<link / abs url>"
-    favicon32x32: "<link / abs url>"
-    apple_touch_icon: "~/icon.png"
-    safari_pinned_tab: "<link / abs url>"
-
-  # profile-mode
+    disableHLJS: true
+    favicon: "/favicon.ico"
+    favicon16x16:  "/favicon-16x16.png"
+    favicon32x32:  "/favicon-32x32.png"
+    apple_touch_icon:  "/apple-touch-icon.png"
+    safari_pinned_tab:  "/safari-pinned-tab.svg"
+  
+  markup:
+    highlight:
+      # anchorLineNos: true
+      codeFences: true
+      guessSyntax: true
+      lineNos: true
+      # noClasses: false
+      style: monokai
+  
+# profile-mode
   profileMode:
     enabled: true # needs to be explicitly set
     title: James Maradiaga
@@ -75,8 +85,7 @@ params:
       - name: About Me!
         url: about
 
-
-  # home-info mode
+   # home-info mode
   homeInfoParams:
     Title: "Hi there \U0001F44B"
     Content: Welcome to my blog
@@ -96,6 +105,11 @@ params:
       SiteVerificationTag: "XYZabc"
     yandex:
       SiteVerificationTag: "XYZabc"
+    
+  label:
+    text: "Ancordss-Blog!"
+    icon: /apple-touch-icon.png
+    iconHeight: 35
 
   cover:
     hidden: false # hide everywhere but not in structured data
