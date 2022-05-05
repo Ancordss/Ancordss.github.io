@@ -9,7 +9,17 @@
       <link>https://avatars.githubusercontent.com/u/87324382?s=400&u=3a0cbb2958a9346ac0d43164be8903afb12a511e&v=4</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 04 May 2022 16:57:32 +0000</lastBuildDate><atom:link href="https://ancordss.github.io/tags/blogging/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 05 May 2022 15:45:55 +0000</lastBuildDate><atom:link href="https://ancordss.github.io/tags/blogging/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Ansible | creando Playbooks</title>
+      <link>https://ancordss.github.io/post/ansible2/</link>
+      <pubDate>Thu, 05 May 2022 15:45:55 +0000</pubDate>
+      
+      <guid>https://ancordss.github.io/post/ansible2/</guid>
+      <description>Un playbook es un archivo donde se escribiran todas las tareas que quieres que se hagan con ansible es escrito en yml y es mas facil porque solo tendremos que ejecutarlo no tendremos que escribir cada comando y recordarlo. Primer paso  crearemos una archivo llamado tareas.yml  segundo paso escribiremos el siguiente codigo:
+---  - hosts: all  name: creando un playbook  become: true  task:  - name: instala vim  apt: name=vim state=present  - name: comando shell  shell: echo hola  - name: detiene servicio  service: name=nginx state=stoppeda  - name: start servicio  service: name=nginx state=started &amp;ndash; [En la variable hosts podemos especificar ip/dominio igual podemos colocar el nombre de los grupos a los que queremos que se les apliquen estos cambios]</description>
+    </item>
+    
     <item>
       <title>Iniciando con Ansible</title>
       <link>https://ancordss.github.io/post/ansible1/</link>
