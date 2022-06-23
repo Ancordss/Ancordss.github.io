@@ -16,9 +16,11 @@
       <pubDate>Tue, 10 May 2022 16:02:38 +0000</pubDate>
       
       <guid>https://ancordss.github.io/post/kubernetes/</guid>
-      <description>que es Kubernetes?  es una tecnologia que permite orquestar contenedores docker   componenetes:  control plane Node Scheduler kube-proxy kubelet etcd controller manager Cloud controller manager Api server      Recomiendo leer el libro [Site Realiability engineering] lo pudes leer en el siguiente link:
-https://landing.google.com/sre/book.html
-  [^]: contenido sacado del siguiente video: https://www.youtube.com/watch?v=DCoBcpOA7W4</description>
+      <description>que es Kubernetes? es una tecnologia que permite orquestar contenedores docker componenetes: control plane Node Scheduler kube-proxy kubelet etcd controller manager Cloud controller manager Api server notas para usar kubernets requisitos: docker
+instalar kubectl y kubernetes tener instalado docker
+para usar o practicar usar minikube para iniciar minikube correr :
+sudo sysctl fs.protected_regular=0 sudo minikube start ahora ya se pueden ejecutar comandos [ejecutar como root]
+comandos mas usados kubectl config get-contexts kubectl get ns [para ver pods] kubectl -n kube-system get pods [se le puden pasar mas comandos como -o wide] kubectl delete pod &amp;#34;nombre del pod&amp;#34; kubectl delete -f &amp;#34;nombre del archivo&amp;#34; [elimina los pods que crea el archivo] kubectl get pod &amp;#34;nombre del pod&amp;#34; [para ver el estado del pod, se le puede pasar -o yaml y mostrara todo el yaml del pod ] kubectl describe pod &amp;#34;nombre del pod&amp;#34; kubectl get pvc kubectl delete pvc &amp;#34;nombre del pvc&amp;#34; kubectl get sts kubectl delete sts &amp;#34;nombre del statefulset&amp;#34; manifiestos [para entender revisar 01-pod.</description>
     </item>
     
     <item>
@@ -27,8 +29,8 @@ https://landing.google.com/sre/book.html
       <pubDate>Thu, 05 May 2022 15:45:55 +0000</pubDate>
       
       <guid>https://ancordss.github.io/post/ansible2/</guid>
-      <description>Un playbook es un archivo donde se escribiran todas las tareas que quieres que se hagan con ansible es escrito en yml y es mas facil porque solo tendremos que ejecutarlo no tendremos que escribir cada comando y recordarlo. Primer paso  crearemos una archivo llamado tareas.yml  segundo paso escribiremos el siguiente codigo:
----  - hosts: all  name: creando un playbook  become: true  task:  - name: instala vim  apt: name=vim state=present  - name: comando shell  shell: echo hola  - name: detiene servicio  service: name=nginx state=stoppeda  - name: start servicio  service: name=nginx state=started &amp;ndash; [En la variable hosts podemos especificar ip/dominio igual podemos colocar el nombre de los grupos a los que queremos que se les apliquen estos cambios]</description>
+      <description>Un playbook es un archivo donde se escribiran todas las tareas que quieres que se hagan con ansible es escrito en yml y es mas facil porque solo tendremos que ejecutarlo no tendremos que escribir cada comando y recordarlo. Primer paso crearemos una archivo llamado tareas.yml segundo paso escribiremos el siguiente codigo:
+--- - hosts: all name: creando un playbook become: true task: - name: instala vim apt: name=vim state=present - name: comando shell shell: echo hola - name: detiene servicio service: name=nginx state=stoppeda - name: start servicio service: name=nginx state=started &amp;ndash; [En la variable hosts podemos especificar ip/dominio igual podemos colocar el nombre de los grupos a los que queremos que se les apliquen estos cambios]</description>
     </item>
     
     <item>
@@ -51,6 +53,18 @@ ssh anco@192.168.1.8 -p 22 si todo sale bien ahora podras controlar el servidor 
       <guid>https://ancordss.github.io/post/creating-hugo-website/</guid>
       <description>this is the second page i make with hugo this is my blog and my website in this short post i will show you how to create a page with hugo in linux so let&amp;rsquo;s start Step 1 install Hugo - Pacman -Sy hugo Step 2 create a new site - hugo new site quickstart Step 3 Add a theme (you can go to themes.gohugo.io/ and search for one)
 cd quickstart git init git submodule add https://github.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://ancordss.github.io/post/notas/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ancordss.github.io/post/notas/</guid>
+      <description>notas para usar kubernets instalar kubectl y kubernetes tener instalado docker
+para usar o practicar usar minikube para iniciar minikube correr :
+sudo sysctl fs.protected_regular=0 sudo minikube start ahora ya se pueden ejecutar comandos [ejecutar como root]
+comandos mas usados kubectl config get-contexts kubectl get ns [para ver pods] kubectl -n kube-system get pods [se le puden pasar mas comandos como -o wide] kubectl delete pod &amp;#34;nombre del pod&amp;#34; kubectl delete -f &amp;#34;nombre del archivo&amp;#34; [elimina los pods que crea el archivo] kubectl get pod &amp;#34;nombre del pod&amp;#34; [para ver el estado del pod, se le puede pasar -o yaml y mostrara todo el yaml del pod ] kubectl describe pod &amp;#34;nombre del pod&amp;#34; kubectl get pvc kubectl delete pvc &amp;#34;nombre del pvc&amp;#34; kubectl get sts kubectl delete sts &amp;#34;nombre del StatefulSet&amp;#34; manifiestos&amp;mdash; [para entender revisar 01-pod.</description>
     </item>
     
   </channel>
