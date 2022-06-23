@@ -1,36 +1,4 @@
----
-title: "Kubernetes"
-date: 2022-05-10T16:02:38Z
-tags: ["fast"]
-categories: ["Automatitation"]
-draft: false
----
-
-#### que es Kubernetes?
-- es una tecnologia que permite orquestar contenedores docker
-
-
-
-<img src="/home/anco/Desktop/Webpage/PersonalBlog/resources/k1.png" alt="k1" style="zoom:67%;" />
-
-
-
-- componenetes: 
-  - control plane
-  - Node
-  - Scheduler
-  - kube-proxy
-  - kubelet
-  - etcd
-  - controller manager
-  - Cloud controller manager
-  - Api server
-
-<img src="/home/anco/Desktop/Webpage/PersonalBlog/resources/k2.png" alt="k2" style="zoom:75%;" />
-
-### notas para usar kubernets
-
-requisitos: docker
+#### notas para usar kubernets
 
 instalar kubectl y kubernetes 
 tener instalado docker
@@ -47,36 +15,22 @@ ahora ya se pueden ejecutar comandos [ejecutar como root]
 ### comandos mas usados 
 
 ```
-  kubectl config get-contexts
-
-  kubectl get ns
-  [para ver pods]
-
-  kubectl -n kube-system get pods 
-  [se le puden pasar mas comandos como -o wide]
-
-  kubectl delete pod "nombre del pod"
-  
-  kubectl delete -f "nombre del archivo" 
-  [elimina los pods que crea el archivo]
-
-  kubectl get pod "nombre del pod" 
-  [para ver el estado del pod, se le puede pasar -o yaml y mostrara todo el yaml del pod ]
-
-  kubectl describe pod "nombre del pod"
-  
-  kubectl get pvc
-
-  kubectl delete pvc "nombre del pvc"
-
-  kubectl get sts
-
-  kubectl delete sts "nombre del statefulset"
+kubectl config get-contexts
+kubectl get ns
+[para ver pods]
+kubectl -n kube-system get pods [se le puden pasar mas comandos como -o wide]
+kubectl delete pod "nombre del pod"
+kubectl delete -f "nombre del archivo" [elimina los pods que crea el archivo]
+kubectl get pod "nombre del pod" [para ver el estado del pod, se le puede pasar -o yaml y mostrara todo el yaml del pod ]
+kubectl describe pod "nombre del pod"
+kubectl get pvc
+kubectl delete pvc "nombre del pvc"
+kubectl get sts
+kubectl delete sts "nombre del StatefulSet"
 ```
 
-### manifiestos
+### manifiestos---
 [para entender revisar 01-pod.yaml]
-
 la primera parte es la version de la api del recurso es dificil recordar recomiendo
 fijarse en los docs
 
@@ -111,24 +65,21 @@ opciones mas comunes dentro de un pod:
 
 -varible de entorno
   env:
-  - name: mi_varible
+  - name: Mi_varible
     value: "val"
-    [video sobre mas funciones env https://www.youtube.com/watch?v=t7lrhha4yxe&t=0s]
+    [video sobre mas funciones env https://www.youtube.com/watch?v=T7lRHHa4YxE&t=0s]
 
   resources:
   [request recursos que siempre tendra disponible el pod]
+  [limits limite que el pod puede llegar a usar de memoria y cpu] nota! si empieza a usar mas el kernel mata el proceso
+  [readlinessProbe forma de explicar a kubernet que el pod esta listo listo para resivir trafico]
+  [livenessProbe forma de explicar a kubernetes de que el pod esta vivo]
 
-  [limits limite que el pod puede llegar a usar de memoria y cpu] 
-  nota! si empieza a usar mas el kernel mata el proceso
-
-  [readlinessprobe forma de explicar a kubernet que el pod esta listo listo para resivir trafico]
-
-  [livenessprobe forma de explicar a kubernetes de que el pod esta vivo]
-
-  [ports le decimos el puerto que queremos exponer le ponemos en 80 ya que nginx trabajo con ese.]
+ports
+le decimos el puerto que queremos exponer le ponemos en 80 ya que nginx trabajo con ese.
 
 
-#### ya sabemos lo que son los pod!!!
+--- ya sabemos lo que son los pod .
 
 
 ### manifiesto deployments
@@ -151,7 +102,7 @@ para que sirve: servicios de monitore, capturar logs.
 
 es muy parecido a un deployment solo que no tiene replica.
 
-### statefulset
+### StatefulSet
 
 esta es forma que aparte de correr como cualquier otro deployment tiene un volumen 
 
@@ -162,14 +113,14 @@ sirve para base de datos
 storageclassname : driver de kubernetes para un proveedor. 
 
 
-#### --pensar en que cosas podemos usar kubernetes
+## pensar en que cosas podemos usar kubernetes
 
 
 la infracstura ya no solo es codigo ahora tambien es datos  
 
-### networking en kubernetes
+### Networking en kubernetes
 
-pod networking
+Pod Networking
 
 cada pod tiene su propio ip
 
@@ -186,14 +137,14 @@ principalemte hay 3
 - load balancer [esta atado a la nube, crea un balanceador de carga en el proveedor y redirecciona el trafico a los nodos]
 
 
-### service node port 
+### Service node port 
  [referencia 08-hello-deploymen-svc-nodeport.yaml]
 se le puede agregar una opcion extra que es nodeport: 
 en el que podemos especificar que puerto queremos que se cree en cada nodo 
 
-### service loadbalancer 
+## service loadBalancer 
 
-en type se coloca loadbalancer 
+en type se coloca LoadBalancer 
 servicio del proveedor digital ocean 
 
 porque es mejor que un node port 
@@ -205,7 +156,7 @@ esta ip no cambia siempre es la misma
 ### ingress
 [referencia 10-hello-v1-v2-deployment-svc.yaml]
 
-nos permite crear acceso a nuestros servicios pasados en el path
+nos permite crear acceso a nuestros servicios pasados en el PATH
 
 funcionamiento: kubernetes va a hacer un deploy de un controlador nginx
 osea que correra nginx dentro de nuestro cluster y lo que va hacer este nginx es que tendra un controlador
@@ -227,7 +178,7 @@ osea que correra nginx dentro de nuestro cluster y lo que va hacer este nginx es
 
  esta forma es la mas usada y mas normal para crear aplicaciones 
 
-## extras 
+#### extras 
 
 ### configmap 
 
@@ -246,7 +197,7 @@ esto no es una forma de encriptar no es seguro pero una persona no lo puede leer
 
 consulta la doc para ver los comando que se pueden ingresar para generar automaticamente el yaml codificado
 
-se recomienda usar kubesealed si se quiere tener encriptado algun dato
+se recomienda usar kubeSealed si se quiere tener encriptado algun dato
 
 
 ### kustomization
@@ -258,17 +209,7 @@ nos permite con un cliente generar manfiestos
 para ejecutar se usa :
 
 ```
-kustomize build .
+Kustomize build .
 ```
-
-- Recomiendo leer el libro [Site Realiability engineering]
-  lo pudes leer en el siguiente link:
-
-  https://landing.google.com/sre/book.html
-
-- Recursos: https://github.com/pablokbs/peladonerd/tree/master/kubernetes/35
-
-[^]: contenido sacado del siguiente video: https://www.youtube.com/watch?v=DCoBcpOA7W4
-
 
 
