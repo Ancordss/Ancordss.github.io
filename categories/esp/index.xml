@@ -1,29 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Development on Ancordss-Blog!</title>
-    <link>https://ancordss.github.io/tags/development/</link>
-    <description>Recent content in Development on Ancordss-Blog!</description>
+    <title>esp on Ancordss-Blog!</title>
+    <link>https://ancordss.github.io/categories/esp/</link>
+    <description>Recent content in esp on Ancordss-Blog!</description>
     <image>
       <url>https://avatars.githubusercontent.com/u/87324382?s=400&u=3a0cbb2958a9346ac0d43164be8903afb12a511e&v=4</url>
       <link>https://avatars.githubusercontent.com/u/87324382?s=400&u=3a0cbb2958a9346ac0d43164be8903afb12a511e&v=4</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 06 Aug 2022 01:24:33 +0000</lastBuildDate><atom:link href="https://ancordss.github.io/tags/development/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 10 May 2022 16:02:38 +0000</lastBuildDate><atom:link href="https://ancordss.github.io/categories/esp/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Cli app schedule</title>
-      <link>https://ancordss.github.io/post/go-horario/</link>
-      <pubDate>Sat, 06 Aug 2022 01:24:33 +0000</pubDate>
+      <title>Kubernetes[espa] </title>
+      <link>https://ancordss.github.io/post/kubernetes_es/</link>
+      <pubDate>Tue, 10 May 2022 16:02:38 +0000</pubDate>
       
-      <guid>https://ancordss.github.io/post/go-horario/</guid>
-      <description>Preview Install Clone the repository or download the package from here:
-https://github.com/Ancordss/CLI-HorarioAPP.git
-enter the folder open terminal and run this command
--\.install.ps1 now run the following command
-- [x] Get-Variable Profile It will show something like this: go to the address shown in the terminal
-open the file ending with ##profile.ps1
-copy and paste the following command at the end of the file
-- [x] Set-Alias h &amp;#39;C:\schedule\schedule.exe&amp;#39; Close and open the terminal again to run the program place h and hit enter</description>
+      <guid>https://ancordss.github.io/post/kubernetes_es/</guid>
+      <description>que es Kubernetes? es una tecnologia que permite orquestar contenedores docker componenetes: control plane Node Scheduler kube-proxy kubelet etcd controller manager Cloud controller manager Api server notas para usar kubernets requisitos: docker
+instalar kubectl y kubernetes tener instalado docker
+para usar o practicar usar minikube para iniciar minikube correr :
+sudo sysctl fs.protected_regular=0 sudo minikube start ahora ya se pueden ejecutar comandos [ejecutar como root]
+comandos mas usados kubectl config get-contexts kubectl get ns [para ver pods] kubectl -n kube-system get pods [se le puden pasar mas comandos como -o wide] kubectl delete pod &amp;#34;nombre del pod&amp;#34; kubectl delete -f &amp;#34;nombre del archivo&amp;#34; [elimina los pods que crea el archivo] kubectl get pod &amp;#34;nombre del pod&amp;#34; [para ver el estado del pod, se le puede pasar -o yaml y mostrara todo el yaml del pod ] kubectl describe pod &amp;#34;nombre del pod&amp;#34; kubectl get pvc kubectl delete pvc &amp;#34;nombre del pvc&amp;#34; kubectl get sts kubectl delete sts &amp;#34;nombre del statefulset&amp;#34; manifiestos [para entender revisar 01-pod.</description>
     </item>
     
     <item>
@@ -46,16 +43,6 @@ copy and paste the following command at the end of the file
 para que funcione bien tienes que tener un servidor al cual conectarte con ssh en mi caso estoy usando uno que cree con una maquin virtual
 comando para probar un ping ssh usuario@ip -p puerto en mi caso es
 ssh anco@192.168.1.8 -p 22 si todo sale bien ahora podras controlar el servidor desde tu maquina.</description>
-    </item>
-    
-    <item>
-      <title>Creating Hugo Website on Archlinux</title>
-      <link>https://ancordss.github.io/post/creating-hugo-website/</link>
-      <pubDate>Sat, 30 Apr 2022 16:49:30 +0000</pubDate>
-      
-      <guid>https://ancordss.github.io/post/creating-hugo-website/</guid>
-      <description>this is the second page i make with hugo this is my blog and my website in this short post i will show you how to create a page with hugo in linux so let&amp;rsquo;s start Step 1 install Hugo - Pacman -Sy hugo Step 2 create a new site - hugo new site quickstart Step 3 Add a theme (you can go to themes.gohugo.io/ and search for one)
-cd quickstart git init git submodule add https://github.</description>
     </item>
     
   </channel>

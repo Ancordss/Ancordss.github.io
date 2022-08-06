@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Development on Ancordss-Blog!</title>
-    <link>https://ancordss.github.io/tags/development/</link>
-    <description>Recent content in Development on Ancordss-Blog!</description>
+    <title>eng on Ancordss-Blog!</title>
+    <link>https://ancordss.github.io/categories/eng/</link>
+    <description>Recent content in eng on Ancordss-Blog!</description>
     <image>
       <url>https://avatars.githubusercontent.com/u/87324382?s=400&u=3a0cbb2958a9346ac0d43164be8903afb12a511e&v=4</url>
       <link>https://avatars.githubusercontent.com/u/87324382?s=400&u=3a0cbb2958a9346ac0d43164be8903afb12a511e&v=4</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 06 Aug 2022 01:24:33 +0000</lastBuildDate><atom:link href="https://ancordss.github.io/tags/development/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 06 Aug 2022 01:24:33 +0000</lastBuildDate><atom:link href="https://ancordss.github.io/categories/eng/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Cli app schedule</title>
       <link>https://ancordss.github.io/post/go-horario/</link>
@@ -27,25 +27,17 @@ copy and paste the following command at the end of the file
     </item>
     
     <item>
-      <title>Ansible | creando Playbooks</title>
-      <link>https://ancordss.github.io/post/ansible2/</link>
-      <pubDate>Thu, 05 May 2022 15:45:55 +0000</pubDate>
+      <title>Kubernetes</title>
+      <link>https://ancordss.github.io/post/kubernetes/</link>
+      <pubDate>Sat, 06 Aug 2022 00:49:56 +0000</pubDate>
       
-      <guid>https://ancordss.github.io/post/ansible2/</guid>
-      <description>Un playbook es un archivo donde se escribiran todas las tareas que quieres que se hagan con ansible es escrito en yml y es mas facil porque solo tendremos que ejecutarlo no tendremos que escribir cada comando y recordarlo. Primer paso crearemos una archivo llamado tareas.yml segundo paso escribiremos el siguiente codigo:
---- - hosts: all name: creando un playbook become: true task: - name: instala vim apt: name=vim state=present - name: comando shell shell: echo hola - name: detiene servicio service: name=nginx state=stoppeda - name: start servicio service: name=nginx state=started &amp;ndash; [En la variable hosts podemos especificar ip/dominio igual podemos colocar el nombre de los grupos a los que queremos que se les apliquen estos cambios]</description>
-    </item>
-    
-    <item>
-      <title>Iniciando con Ansible</title>
-      <link>https://ancordss.github.io/post/ansible1/</link>
-      <pubDate>Wed, 04 May 2022 16:57:32 +0000</pubDate>
-      
-      <guid>https://ancordss.github.io/post/ansible1/</guid>
-      <description>para instalar ansible agrega el repositoria a ubuntu y luego correo sudo apt install ansible
-para que funcione bien tienes que tener un servidor al cual conectarte con ssh en mi caso estoy usando uno que cree con una maquin virtual
-comando para probar un ping ssh usuario@ip -p puerto en mi caso es
-ssh anco@192.168.1.8 -p 22 si todo sale bien ahora podras controlar el servidor desde tu maquina.</description>
+      <guid>https://ancordss.github.io/post/kubernetes/</guid>
+      <description>What is Kubernetes? is a technology that allows to orchestrate docker containers componenetes:
+control plane Node Scheduler kube-proxy kubelet etcd controller manager Cloud controller manager Api server notes for using kubernets requirements: docker
+install kubectl and kubernetes have docker installed
+to use or practice using minikube to start minikube running :
+sudo sysctl fs.protected_regular=0 sudo minikube start commands can now be executed [run as root]
+most used commands kubectl config get-contexts kubectl get ns [show pods] kubectl -n kube-system get pods [you can pass more commands like -o wide] kubectl delete pod &amp;#34;pod name&amp;#34; kubectl delete -f &amp;#34;file name&amp;#34; [delete the pods that the file creates] kubectl get pod &amp;#34;pod name&amp;#34; [to see the state of the pod, you can pass -o yaml and it will show all the yaml of the pod ] kubectl describe pod &amp;#34;pod name&amp;#34; kubectl get pvc kubectl delete pvc &amp;#34;pvc name&amp;#34; kubectl get sts kubectl delete sts &amp;#34;statefulset name&amp;#34; manifests [to understand review 01-pod.</description>
     </item>
     
     <item>

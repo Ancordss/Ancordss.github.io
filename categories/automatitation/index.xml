@@ -9,13 +9,27 @@
       <link>https://avatars.githubusercontent.com/u/87324382?s=400&u=3a0cbb2958a9346ac0d43164be8903afb12a511e&v=4</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 10 May 2022 16:02:38 +0000</lastBuildDate><atom:link href="https://ancordss.github.io/categories/automatitation/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 06 Aug 2022 00:49:56 +0000</lastBuildDate><atom:link href="https://ancordss.github.io/categories/automatitation/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Kubernetes</title>
       <link>https://ancordss.github.io/post/kubernetes/</link>
-      <pubDate>Tue, 10 May 2022 16:02:38 +0000</pubDate>
+      <pubDate>Sat, 06 Aug 2022 00:49:56 +0000</pubDate>
       
       <guid>https://ancordss.github.io/post/kubernetes/</guid>
+      <description>What is Kubernetes? is a technology that allows to orchestrate docker containers componenetes:
+control plane Node Scheduler kube-proxy kubelet etcd controller manager Cloud controller manager Api server notes for using kubernets requirements: docker
+install kubectl and kubernetes have docker installed
+to use or practice using minikube to start minikube running :
+sudo sysctl fs.protected_regular=0 sudo minikube start commands can now be executed [run as root]
+most used commands kubectl config get-contexts kubectl get ns [show pods] kubectl -n kube-system get pods [you can pass more commands like -o wide] kubectl delete pod &amp;#34;pod name&amp;#34; kubectl delete -f &amp;#34;file name&amp;#34; [delete the pods that the file creates] kubectl get pod &amp;#34;pod name&amp;#34; [to see the state of the pod, you can pass -o yaml and it will show all the yaml of the pod ] kubectl describe pod &amp;#34;pod name&amp;#34; kubectl get pvc kubectl delete pvc &amp;#34;pvc name&amp;#34; kubectl get sts kubectl delete sts &amp;#34;statefulset name&amp;#34; manifests [to understand review 01-pod.</description>
+    </item>
+    
+    <item>
+      <title>Kubernetes[espa] </title>
+      <link>https://ancordss.github.io/post/kubernetes_es/</link>
+      <pubDate>Tue, 10 May 2022 16:02:38 +0000</pubDate>
+      
+      <guid>https://ancordss.github.io/post/kubernetes_es/</guid>
       <description>que es Kubernetes? es una tecnologia que permite orquestar contenedores docker componenetes: control plane Node Scheduler kube-proxy kubelet etcd controller manager Cloud controller manager Api server notas para usar kubernets requisitos: docker
 instalar kubectl y kubernetes tener instalado docker
 para usar o practicar usar minikube para iniciar minikube correr :
