@@ -43,6 +43,9 @@ params:
   - Development
   - Automatitation
   - Scripting
+  - cli-App
+  - eng
+  - esp
   tags:
   - Development
   - Go
@@ -72,7 +75,7 @@ params:
   profileMode:
     enabled: true # needs to be explicitly set
     title: James Maradiaga
-    subtitle: "Student | Linux enthusiast | Jr SysAdmin"
+    subtitle: "Go Developer | Jr DevOps | Linux enthusiast"
     imageUrl: "https://avatars.githubusercontent.com/u/87324382?s=400&u=3a0cbb2958a9346ac0d43164be8903afb12a511e&v=4"
     imageWidth: 120
     imageHeight: 120
@@ -135,11 +138,11 @@ params:
 menu:
   main:
     - identifier: categories
-      name: categories
+      name: Categories
       url: /categories/
       weight: 20
     - identifier: tags
-      name: tags
+      name: Tags
       url: /tags/
       weight: 30
 

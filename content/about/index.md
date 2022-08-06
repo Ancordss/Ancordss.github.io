@@ -9,17 +9,17 @@ draft: false
 
 ### > I'm currently learning
 - SysAdmin ✔️
-- Go
+- Go✔️
 - lua
 
 ### > I'm working on 
 - Discord Bot ✔️
-- Script DotMK
+- Script DotMK ✔️
 - Virtual assistant
 - My portfolio website.
 
 ### > Goals for 2022
-- Complete 30DayOfGo.
+- Complete 30DayOfGo. ✔️
 - Build 10+ projects.
 - Contribute to Open Source.
 

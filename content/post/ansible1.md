@@ -2,7 +2,7 @@
 title: "Iniciando con Ansible"
 date: 2022-05-04T16:57:32Z
 tags: ["fast", "Development","Blogging"]
-categories: ["Automatitation"]
+categories: ["Automatitation","esp"]
 draft: false
 ---
 ## para instalar ansible

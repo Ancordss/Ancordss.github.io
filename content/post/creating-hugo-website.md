@@ -2,7 +2,7 @@
 title: "Creating Hugo Website on Archlinux"
 date: 2022-04-30T16:49:30Z
 tags: ["Development","Go","fast"]
-categories: ["Development"]
+categories: ["Development","eng"]
 draft: false
 ---
 

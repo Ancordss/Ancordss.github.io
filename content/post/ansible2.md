@@ -2,7 +2,7 @@
 title: "Ansible | creando Playbooks"
 date: 2022-05-05T15:45:55Z
 tags: ["fast", "Development","Blogging"]
-categories: ["Automatitation"]
+categories: ["Automatitation","esp"]
 draft: false
 ---
 

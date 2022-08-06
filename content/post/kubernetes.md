@@ -1,18 +1,15 @@
 ---
 title: "Kubernetes"
-date: 2022-05-10T16:02:38Z
+date: 2022-08-06T00:49:56Z
 tags: ["fast"]
-categories: ["Automatitation"]
+categories: ["Automatitation","eng"]
 draft: false
 ---
 
-#### que es Kubernetes?
-- es una tecnologia que permite orquestar contenedores docker
+#### What is Kubernetes?
+- is a technology that allows to orchestrate docker containers
 
-
-
-<img src="/home/anco/Desktop/Webpage/PersonalBlog/resources/k1.png" alt="k1" style="zoom:67%;" />
-
+![img.png](https://raw.githubusercontent.com/Ancordss/Ancordss.github.io/main/resources/k1.png)
 
 
 - componenetes: 
@@ -26,66 +23,66 @@ draft: false
   - Cloud controller manager
   - Api server
 
-<img src="/home/anco/Desktop/Webpage/PersonalBlog/resources/k2.png" alt="k2" style="zoom:75%;" />
+  ![im2.png](https://raw.githubusercontent.com/Ancordss/Ancordss.github.io/main/resources/k2.png)
 
-### notas para usar kubernets
+### notes for using kubernets
 
-requisitos: docker
+requirements: docker
 
-instalar kubectl y kubernetes 
-tener instalado docker
+install kubectl and kubernetes
+have docker installed
 
-para usar o practicar usar minikube 
-para iniciar minikube correr : 
+to use or practice using minikube
+to start minikube running :
 
-- sudo sysctl fs.protected_regular=0 
+- sudo sysctl fs.protected_regular=0
 - sudo minikube start
 
 
-ahora ya se pueden ejecutar comandos [ejecutar como root]
+commands can now be executed [run as root]
 
-### comandos mas usados 
+### most used commands
 
 ```
   kubectl config get-contexts
 
   kubectl get ns
-  [para ver pods]
+  [show pods]
 
   kubectl -n kube-system get pods 
-  [se le puden pasar mas comandos como -o wide]
+  [you can pass more commands like -o wide]
 
-  kubectl delete pod "nombre del pod"
+  kubectl delete pod "pod name"
   
-  kubectl delete -f "nombre del archivo" 
-  [elimina los pods que crea el archivo]
+  kubectl delete -f "file name" 
+  [delete the pods that the file creates]
 
-  kubectl get pod "nombre del pod" 
-  [para ver el estado del pod, se le puede pasar -o yaml y mostrara todo el yaml del pod ]
+  kubectl get pod "pod name" 
+  [to see the state of the pod, you can pass -o yaml and it will show all the yaml of the pod ]
 
-  kubectl describe pod "nombre del pod"
+  kubectl describe pod "pod name"
   
   kubectl get pvc
 
-  kubectl delete pvc "nombre del pvc"
+  kubectl delete pvc "pvc name"
 
   kubectl get sts
 
-  kubectl delete sts "nombre del statefulset"
+  kubectl delete sts "statefulset name"
+
 ```
+### manifests
+[to understand review 01-pod.yaml]
 
-### manifiestos
-[para entender revisar 01-pod.yaml]
+the first part is the api version of the resource it is difficult to remember I recommend
+look at the docs
 
-la primera parte es la version de la api del recurso es dificil recordar recomiendo
-fijarse en los docs
+metadata: we can add labels or names if or if you need a name
 
-metadata: le podemos agregar etiquetas o nombres si o si necesita un nombre 
+now we will declare the containers
+place them the name and the image that we will call
 
-ahora declararemos los contenedores 
-colocalos el nombre y la imagen que llamaremos 
-
-para colocar la configuracion del pod corremmos
+to place the pod configuration we run 
 
 ```
 kubectl apply -f 01-pod.yaml
@@ -93,182 +90,178 @@ kubectl apply -f 01-pod.yaml
 
 ### kubectl exec
 
-con este comando al igual que con docker ejecutamos comandos dentro del contenedor
+with this command, as with docker, we execute commands inside the container
 
-podemos correr estos comandos para hacer unas pruebas:
+We can run these commands to do some tests:
 
 ```
 kubectl exec -it nginx -- sh 
 ```
 
-!nota: el -it hace que sea interactiva la shell y despues de -- se coloca el comando que queremos 
-que se ejecute [para salir presiona ctrl+d]
+!note: the -it makes the shell interactive and after -- the command we want is placed
+to run [to exit press ctrl+d]
 
-### manifiestos 2
-[archivo 02-pods.yaml]
+### manifests 2
+[02-pods.yaml file]
 
-opciones mas comunes dentro de un pod:
+most common options within a pod:
 
--varible de entorno
-  env:
-  - name: mi_varible
-    value: "val"
-    [video sobre mas funciones env https://www.youtube.com/watch?v=t7lrhha4yxe&t=0s]
+-environment variable
+   send:
+   - name: my_variable
+     value: "val"
+     [video about more functions env https://www.youtube.com/watch?v=t7lrhha4yxe&t=0s]
 
-  resources:
-  [request recursos que siempre tendra disponible el pod]
+   resources:
+   [request resources that the pod will always have available]
 
-  [limits limite que el pod puede llegar a usar de memoria y cpu] 
-  nota! si empieza a usar mas el kernel mata el proceso
+   [limits limit that the pod can use memory and cpu]
+   note! if it starts to use more the kernel kills the process
 
-  [readlinessprobe forma de explicar a kubernet que el pod esta listo listo para resivir trafico]
+   [readlinessprobe way to explain to kubernet that the pod is ready to receive traffic]
 
-  [livenessprobe forma de explicar a kubernetes de que el pod esta vivo]
+   [livenessprobe way to explain to kubernetes that the pod is alive]
 
-  [ports le decimos el puerto que queremos exponer le ponemos en 80 ya que nginx trabajo con ese.]
-
-
-#### ya sabemos lo que son los pod!!!
+   [ports we tell it the port that we want to expose, we put it in 80 since nginx works with that.]
 
 
-### manifiesto deployments
-[archivo 04-deployments.yaml]
-
-es muy parecido a los pod 
-tenemos un spec dentro de un spec esto es un templete para nustro spots
-
-las replicas son la cantidad de pods que queremos en el deployments
-
-deployments es un template para crear pods
-
-### daemonset 
-
-es una forma de deployar un pod pero este pod sera deployado en todos los nodos
-este tipo no tiene replicar, depende de la cantidad de nodos que tengas 
+#### we already know what pods are!!!
 
 
-para que sirve: servicios de monitore, capturar logs.
+### manifest deployments
+[04-deployments.yaml file]
 
-es muy parecido a un deployment solo que no tiene replica.
+it is very similar to pods
+we have a spec within a spec this is a template for our spots
+
+the replicas are the number of pods we want in the deployments
+
+deployments is a template to create pods
+
+### daemonset
+
+it is a way to deploy a pod but this pod will be deployed on all nodes
+this type does not have replicate, it depends on the number of nodes you have
+
+
+What is it for: monitor services, capture logs.
+
+It is very similar to a deployment, except that it does not have a replica.
 
 ### statefulset
 
-esta es forma que aparte de correr como cualquier otro deployment tiene un volumen 
+this is the way that apart from running like any other deployment it has a volume
 
-es direcctorio que estara atado a ese pod. 
+is directory that will be tied to that pod.
 
-sirve para base de datos
+used for database
 
-storageclassname : driver de kubernetes para un proveedor. 
-
-
-#### --pensar en que cosas podemos usar kubernetes
+storageclassname : kubernetes driver for a provider.
 
 
-la infracstura ya no solo es codigo ahora tambien es datos  
+#### --think about what things we can use Kubernetes
 
-### networking en kubernetes
+infrastructure is no longer just code, now it is also data
+
+### networking in kubernetes
 
 pod networking
 
-cada pod tiene su propio ip
+each pod has its own ip
 
-ip routing 
-
-
-### kubernetes services : kube proxys 
-son una forma de poder contactar aplicaciones osea un sed de pods 
-
-principalemte hay 3 
-
-- cluster ip [sirve como load balancer]
-- node port [crea un puerto en cada nodo que recibe el servicio y lo mando a donde se indique]
-- load balancer [esta atado a la nube, crea un balanceador de carga en el proveedor y redirecciona el trafico a los nodos]
+ip-routing
 
 
-### service node port 
- [referencia 08-hello-deploymen-svc-nodeport.yaml]
-se le puede agregar una opcion extra que es nodeport: 
-en el que podemos especificar que puerto queremos que se cree en cada nodo 
+### kubernetes services : kube proxies
+They are a way to be able to contact applications, that is, a thirst for pods
 
-### service loadbalancer 
+mainly there are 3
 
-en type se coloca loadbalancer 
-servicio del proveedor digital ocean 
+- cluster ip [serves as load balancer]
+- node port [creates a port in each node that receives the service and I send it to where it is indicated]
+- load balancer [it is tied to the cloud, it creates a load balancer in the provider and redirects the traffic to the nodes]
 
-porque es mejor que un node port 
 
-porque esta atado a la ip de cada nodo
+### service node port
+ [reference 08-hello-deploymen-svc-nodeport.yaml]
+You can add an extra option that is nodeport:
+in which we can specify which port we want to be created on each node
 
-esta ip no cambia siempre es la misma 
+### service loadbalancer
 
-### ingress
-[referencia 10-hello-v1-v2-deployment-svc.yaml]
+loadbalancer is placed in type
+ocean digital provider service
 
-nos permite crear acceso a nuestros servicios pasados en el path
+because it is better than a node port
 
-funcionamiento: kubernetes va a hacer un deploy de un controlador nginx
-osea que correra nginx dentro de nuestro cluster y lo que va hacer este nginx es que tendra un controlador
- especial que va a leer este tipo de recurso de kubernetes que se llama ingress. va a leer esas configuraciones y 
- se va a autoconfigurar para mandar el trafico a donde tiene que mandarlo
+because it is tied to the ip of each node
 
- esto quiere decir que nosotros tenemos que instalar nuestro controlador ingress en nuestro claso nginx
- no todos los clusters de kubernetes dependiendo del proveedor que estes usando vienen con ingress funcionando generalmente
- se debe instalar a parte
+this ip does not change is always the same
 
- como se instala? depende del proveedor pero puedes usar helm
+### login
+[reference 10-hello-v1-v2-deployment-svc.yaml]
 
- comando de ingres 
+allows us to create access to our past services in the path
+
+operation: kubernetes will deploy an nginx controller
+that is, it will run nginx inside our cluster and what this nginx will do is that it will have a controller
+ special that is going to read this type of kubernetes resource called ingress. will read those settings and
+ it will configure itself to send the traffic where it has to be sent
+
+ this means that we have to install our ingress controller in our nginx class
+ not all kubernetes clusters depending on the provider you are using come with ingress working generally
+ must be installed separately
+
+ how is it installed? vendor dependent but you can use helm
+
+ login command
 
  ```
- kubectl get ing 
+ kubectl get ing
  kubectl -n ingress-nginx get svc
  ```
 
- esta forma es la mas usada y mas normal para crear aplicaciones 
+ This form is the most used and most normal to create applications
 
-## extras 
+## Additional features
 
-### configmap 
+### configmap
 
-es un archivo que se hostea en kubernetes 
-despues puedes acceder al archivo desde los pods 
-ejemplo [referencia 12-configmap.yaml]
+it is a file that is hosted in kubernetes
+then you can access the file from the pods
+example [reference 12-configmap.yaml]
 
-supongamos que quiere configurar algun servicio que necesite tenes un archivo de configuracion donde quere guardar algo 
-que es diferente por cada cluster entonces no queres estar hardcodeando en el manifiesto de esta forma usas el mismo manifiesto 
-en todos los cluster y lo unico que se hace es cambiar el config map para eso se usan 
+suppose you want to configure some service that you need you have a configuration file where you want to save something
+which is different for each cluster so you don't want to be hardcoding in the manifest this way you use the same manifest
+in all the clusters and the only thing that is done is to change the config map for that they are used
 
 ### secrets
 
-la diferencia entre este y el otro es que el contenido de estos valores estara codificado en base64
-esto no es una forma de encriptar no es seguro pero una persona no lo puede leer 
+the difference between this and the other is that the content of these values ​​will be encoded in base64
+this is not a form of encryption it is not secure but a person cannot read it
 
-consulta la doc para ver los comando que se pueden ingresar para generar automaticamente el yaml codificado
+consult the doc to see the commands that can be entered to automatically generate the encrypted yaml
 
-se recomienda usar kubesealed si se quiere tener encriptado algun dato
+it is recommended to use kubesealed if you want to have some data encrypted
 
 
 ### kustomization
-  [referencia kustomization.yaml]
-es una forma de manejar manifiesto mas facil
+  [reference kustomization.yaml]
+It is an easier way to handle manifest
 
-nos permite con un cliente generar manfiestos 
+allows us with a client to generate manifests
 
-para ejecutar se usa :
+to execute use:
 
 ```
-kustomize build .
+customize build .
 ```
 
-- Recomiendo leer el libro [Site Realiability engineering]
-  lo pudes leer en el siguiente link:
+- I recommend reading the book [Site Realiability engineering]
+  You can read it in the following link:
 
   https://landing.google.com/sre/book.html
 
-- Recursos: https://github.com/pablokbs/peladonerd/tree/master/kubernetes/35
+- Resources: https://github.com/pablokbs/peladonerd/tree/master/kubernetes/35
 
-[^]: contenido sacado del siguiente video: https://www.youtube.com/watch?v=DCoBcpOA7W4
-
-
-
+[^]: content taken from the following video: https://www.youtube.com/watch?v=DCoBcpOA7W4
