@@ -9,7 +9,17 @@
       <link>https://avatars.githubusercontent.com/u/87324382?s=400&u=3a0cbb2958a9346ac0d43164be8903afb12a511e&v=4</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 06 Aug 2022 01:24:33 +0000</lastBuildDate><atom:link href="https://ancordss.github.io/categories/eng/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 07 Aug 2022 19:43:44 +0000</lastBuildDate><atom:link href="https://ancordss.github.io/categories/eng/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>DevOps CI/CD 1</title>
+      <link>https://ancordss.github.io/post/devops-project01/</link>
+      <pubDate>Sun, 07 Aug 2022 19:43:44 +0000</pubDate>
+      
+      <guid>https://ancordss.github.io/post/devops-project01/</guid>
+      <description>Simple DevOps Project -01 We know how to use work with each and Git, Jenkins independently. What if you want to collaborate these two? that is where Simple DevOps project helps you. Follow below steps if you are a new guy to DevOps. You love it.
+Prerequisites Azure vm with tomcat installation Jenkins server Part-01 : Adding steps for Integration Steps to create Jenkin job Login to Jenkins console Create Jenkins job, Fill the following details, Source Code Management: Repository: https://github.</description>
+    </item>
+    
     <item>
       <title>Cli app schedule</title>
       <link>https://ancordss.github.io/post/go-horario/</link>

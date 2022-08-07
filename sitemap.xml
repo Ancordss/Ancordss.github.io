@@ -3,10 +3,43 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://ancordss.github.io/</loc>
-    <lastmod>2022-08-06T01:24:33+00:00</lastmod>
+    <lastmod>2022-08-07T19:43:44+00:00</lastmod>
+  </url><url>
+    <loc>https://ancordss.github.io/categories/automatitation/</loc>
+    <lastmod>2022-08-07T19:43:44+00:00</lastmod>
+  </url><url>
+    <loc>https://ancordss.github.io/tags/blogging/</loc>
+    <lastmod>2022-08-07T19:43:44+00:00</lastmod>
   </url><url>
     <loc>https://ancordss.github.io/categories/</loc>
-    <lastmod>2022-08-06T01:24:33+00:00</lastmod>
+    <lastmod>2022-08-07T19:43:44+00:00</lastmod>
+  </url><url>
+    <loc>https://ancordss.github.io/categories/development/</loc>
+    <lastmod>2022-08-07T19:43:44+00:00</lastmod>
+  </url><url>
+    <loc>https://ancordss.github.io/post/devops-project01/</loc>
+    <lastmod>2022-08-07T19:43:44+00:00</lastmod>
+  </url><url>
+    <loc>https://ancordss.github.io/categories/eng/</loc>
+    <lastmod>2022-08-07T19:43:44+00:00</lastmod>
+  </url><url>
+    <loc>https://ancordss.github.io/tags/fast/</loc>
+    <lastmod>2022-08-07T19:43:44+00:00</lastmod>
+  </url><url>
+    <loc>https://ancordss.github.io/post/</loc>
+    <lastmod>2022-08-07T19:43:44+00:00</lastmod>
+  </url><url>
+    <loc>https://ancordss.github.io/tags/</loc>
+    <lastmod>2022-08-07T19:43:44+00:00</lastmod>
+  </url><url>
+    <loc>https://ancordss.github.io/categories/esp/</loc>
+    <lastmod>2022-08-06T22:18:02+00:00</lastmod>
+  </url><url>
+    <loc>https://ancordss.github.io/post/meto_scrum/</loc>
+    <lastmod>2022-08-06T22:18:02+00:00</lastmod>
+  </url><url>
+    <loc>https://ancordss.github.io/post/meto_agile/</loc>
+    <lastmod>2022-08-06T21:41:09+00:00</lastmod>
   </url><url>
     <loc>https://ancordss.github.io/post/go-horario/</loc>
     <lastmod>2022-08-06T01:24:33+00:00</lastmod>
@@ -17,37 +50,16 @@
     <loc>https://ancordss.github.io/tags/development/</loc>
     <lastmod>2022-08-06T01:24:33+00:00</lastmod>
   </url><url>
-    <loc>https://ancordss.github.io/categories/eng/</loc>
-    <lastmod>2022-08-06T01:24:33+00:00</lastmod>
-  </url><url>
-    <loc>https://ancordss.github.io/tags/fast/</loc>
-    <lastmod>2022-08-06T01:24:33+00:00</lastmod>
-  </url><url>
     <loc>https://ancordss.github.io/tags/go/</loc>
     <lastmod>2022-08-06T01:24:33+00:00</lastmod>
   </url><url>
-    <loc>https://ancordss.github.io/post/</loc>
-    <lastmod>2022-08-06T01:24:33+00:00</lastmod>
-  </url><url>
-    <loc>https://ancordss.github.io/tags/</loc>
-    <lastmod>2022-08-06T01:24:33+00:00</lastmod>
-  </url><url>
-    <loc>https://ancordss.github.io/categories/automatitation/</loc>
-    <lastmod>2022-08-06T00:49:56+00:00</lastmod>
-  </url><url>
     <loc>https://ancordss.github.io/post/kubernetes/</loc>
     <lastmod>2022-08-06T00:49:56+00:00</lastmod>
-  </url><url>
-    <loc>https://ancordss.github.io/categories/esp/</loc>
-    <lastmod>2022-05-10T16:02:38+00:00</lastmod>
   </url><url>
     <loc>https://ancordss.github.io/post/kubernetes_es/</loc>
     <lastmod>2022-05-10T16:02:38+00:00</lastmod>
   </url><url>
     <loc>https://ancordss.github.io/post/ansible2/</loc>
-    <lastmod>2022-05-05T15:45:55+00:00</lastmod>
-  </url><url>
-    <loc>https://ancordss.github.io/tags/blogging/</loc>
     <lastmod>2022-05-05T15:45:55+00:00</lastmod>
   </url><url>
     <loc>https://ancordss.github.io/post/ansible1/</loc>
@@ -57,9 +69,6 @@
     <lastmod>2022-04-30T18:54:24+00:00</lastmod>
   </url><url>
     <loc>https://ancordss.github.io/post/creating-hugo-website/</loc>
-    <lastmod>2022-04-30T16:49:30+00:00</lastmod>
-  </url><url>
-    <loc>https://ancordss.github.io/categories/development/</loc>
     <lastmod>2022-04-30T16:49:30+00:00</lastmod>
   </url>
 </urlset>

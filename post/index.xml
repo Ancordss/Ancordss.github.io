@@ -9,7 +9,49 @@
       <link>https://avatars.githubusercontent.com/u/87324382?s=400&u=3a0cbb2958a9346ac0d43164be8903afb12a511e&v=4</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 06 Aug 2022 01:24:33 +0000</lastBuildDate><atom:link href="https://ancordss.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 07 Aug 2022 19:43:44 +0000</lastBuildDate><atom:link href="https://ancordss.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>DevOps CI/CD 1</title>
+      <link>https://ancordss.github.io/post/devops-project01/</link>
+      <pubDate>Sun, 07 Aug 2022 19:43:44 +0000</pubDate>
+      
+      <guid>https://ancordss.github.io/post/devops-project01/</guid>
+      <description>Simple DevOps Project -01 We know how to use work with each and Git, Jenkins independently. What if you want to collaborate these two? that is where Simple DevOps project helps you. Follow below steps if you are a new guy to DevOps. You love it.
+Prerequisites Azure vm with tomcat installation Jenkins server Part-01 : Adding steps for Integration Steps to create Jenkin job Login to Jenkins console Create Jenkins job, Fill the following details, Source Code Management: Repository: https://github.</description>
+    </item>
+    
+    <item>
+      <title>Metodologia_scrum</title>
+      <link>https://ancordss.github.io/post/meto_scrum/</link>
+      <pubDate>Sat, 06 Aug 2022 22:18:02 +0000</pubDate>
+      
+      <guid>https://ancordss.github.io/post/meto_scrum/</guid>
+      <description>que es Scrum es una metodologia de gestion de proyectos, framework con metodologia agile
+es una guia que cada equipo puede adaptar a sus necesidades
+[insertar imagen]
+el proyecto esta representado en una bombilla
+hitories representan funcionalidades
+grupo de Scrum propietario del proyecto seria un intermediario entre el equipo y los stakeholders
+gestiona el backlog del proyecto prioriza los despliegues contaco directo con los stakeholders Desarrolladores quienes implementan todo el codigo</description>
+    </item>
+    
+    <item>
+      <title>Metodologia Agile</title>
+      <link>https://ancordss.github.io/post/meto_agile/</link>
+      <pubDate>Sat, 06 Aug 2022 21:41:09 +0000</pubDate>
+      
+      <guid>https://ancordss.github.io/post/meto_agile/</guid>
+      <description>que es agile metodologia de desarrollo de paradigmas
+se divide el projecto en diferentes etapas llamados sprints
+metodologia -&amp;gt; Filosofia
+proyecto por etapas
+Adaptacion al cliente
+en 2001 se crea el manifiesto for agile sofware Develpment
+https://agilemanifesto.org/iso/es/manifesto.html
+Agile vs waterfall insertar imagen
+beneficios e inconvenientes ventas inconvenientes estapas mas pequenias -&amp;gt; trabajo mas rapido dificil de preveer los recursos necesarios adaptabilidad equipo necesita base mas solidad y habilidades facilita la priorizacion Requiere un contacto constante con el cliente encontrar errores de forma sencilla poca documentacion -&amp;gt; dificil nuevas incorporaciones proyecto mas transparente falta de limites en el proyecto feedback casi inmediato de usuarios flexibilidad interaccion continua con el clinete 12 Principios Agile 1</description>
+    </item>
+    
     <item>
       <title>Cli app schedule</title>
       <link>https://ancordss.github.io/post/go-horario/</link>
