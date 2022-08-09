@@ -9,7 +9,20 @@
       <link>https://avatars.githubusercontent.com/u/87324382?s=400&u=3a0cbb2958a9346ac0d43164be8903afb12a511e&v=4</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 07 Aug 2022 19:43:44 +0000</lastBuildDate><atom:link href="https://ancordss.github.io/tags/blogging/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 09 Aug 2022 22:18:56 +0000</lastBuildDate><atom:link href="https://ancordss.github.io/tags/blogging/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>DevOps CI/CD Project 02</title>
+      <link>https://ancordss.github.io/post/devops-project02/</link>
+      <pubDate>Tue, 09 Aug 2022 22:18:56 +0000</pubDate>
+      
+      <guid>https://ancordss.github.io/post/devops-project02/</guid>
+      <description>Simple DevOps Project -02 Prerequisites: Ansible server Jenkins Server Tocmat Server Part-01 Integration Setps Install &amp;ldquo;publish Over SSH&amp;rdquo;
+Manage Jenkins &amp;gt; Manage Plugins &amp;gt; Available &amp;gt; Publish over SSH Enable connection between Ansible and Jenkins
+Manage Jenkins &amp;gt; Configure System &amp;gt; Publish Over SSH &amp;gt; SSH Servers
+SSH Servers: Hostname:&amp;lt;ServerIP&amp;gt; username: ansadmin password: ******* Test the connection &amp;ldquo;Test Connection&amp;rdquo;
+Part-02 - Execute job to connect create a copywarfile.yml on Ansible under /opt/playbooks</description>
+    </item>
+    
     <item>
       <title>DevOps CI/CD 1</title>
       <link>https://ancordss.github.io/post/devops-project01/</link>
