@@ -59,4 +59,9 @@ Now job is running fine but to make this as Continuous Integration and Continuou
 
 Save the job and modify the code in GitHub. Then you could see your job get trigger a build without any manual intervention.
 
+### Some images
+
+![1.png]()
+![2.png]()
+![3.png]()
 ### Credits to = **[YouTube](https://www.youtube.com/watch?v=Z9G5stlXoyg)**
