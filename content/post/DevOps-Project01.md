@@ -63,8 +63,8 @@ Save the job and modify the code in GitHub. Then you could see your job get trig
 
 ### Some images
 
-![1.png](https://github.com/Ancordss/Ancordss.github.io/blob/main/static/project%201/azurevm_instances.png?raw=true)
-![2.png](https://github.com/Ancordss/Ancordss.github.io/blob/main/static/project%201/tomcat_at_8090.png?raw=true)
-![3.png](https://github.com/Ancordss/Ancordss.github.io/blob/main/static/project%201/maven%20project.png?raw=true)
+![1.png](https://raw.githubusercontent.com/Ancordss/Ancordss.github.io/main/static/project01/azurevm_instances.png)
+![2.png](https://raw.githubusercontent.com/Ancordss/Ancordss.github.io/main/static/project01/tomcat_at_8090.png)
+![3.png](https://raw.githubusercontent.com/Ancordss/Ancordss.github.io/main/static/project01/maven%20project.png)
 
 ### Credits to = **[YouTube](https://www.youtube.com/watch?v=Z9G5stlXoyg)**
