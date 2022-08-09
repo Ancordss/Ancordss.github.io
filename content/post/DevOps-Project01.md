@@ -10,6 +10,8 @@ draft: false
 
 We know how to use work with each and Git, Jenkins independently. What if you want to collaborate these two? that is where Simple DevOps project helps you. Follow below steps if you are a new guy to DevOps. You love it. 
 
+![01.png](https://raw.githubusercontent.com/Ancordss/Ancordss.github.io/main/static/project%201/projec1.png)
+
 
 #### Prerequisites
 1. Azure vm with tomcat installation 
@@ -61,7 +63,8 @@ Save the job and modify the code in GitHub. Then you could see your job get trig
 
 ### Some images
 
-![1.png]()
-![2.png]()
-![3.png]()
+![1.png](https://github.com/Ancordss/Ancordss.github.io/blob/main/static/project%201/azurevm_instances.png?raw=true)
+![2.png](https://github.com/Ancordss/Ancordss.github.io/blob/main/static/project%201/tomcat_at_8090.png?raw=true)
+![3.png](https://github.com/Ancordss/Ancordss.github.io/blob/main/static/project%201/maven%20project.png?raw=true)
+
 ### Credits to = **[YouTube](https://www.youtube.com/watch?v=Z9G5stlXoyg)**

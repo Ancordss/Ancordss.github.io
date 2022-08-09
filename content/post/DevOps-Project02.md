@@ -8,6 +8,8 @@ draft: false
 
 # Simple DevOps Project -02
 
+![1.png](https://github.com/Ancordss/Ancordss.github.io/blob/main/static/project2/Screenshot%202022-08-08%20104248.png?raw=true)
+
 ### Prerequisites:
 
 1. Ansible server 
@@ -72,9 +74,8 @@ Execute job and you should be able to seen build has been deployed on Tomcat ser
 
 ### Some images
 
-![1.png]()
-![2.png]()
-![3.png]()
+![1.png](https://github.com/Ancordss/Ancordss.github.io/blob/main/static/project2/Screenshot%202022-08-08%20145231.png?raw=true)
+![2.png](https://github.com/Ancordss/Ancordss.github.io/blob/main/static/project2/Screenshot%202022-08-08%20145313.png?raw=true)
 
 Based on **[YouTube](https://www.youtube.com/watch?v=nE4b9mW2ym0)**
 
