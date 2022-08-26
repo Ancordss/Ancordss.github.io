@@ -9,7 +9,16 @@
       <link>https://avatars.githubusercontent.com/u/87324382?s=400&u=3a0cbb2958a9346ac0d43164be8903afb12a511e&v=4</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 09 Aug 2022 22:18:56 +0000</lastBuildDate><atom:link href="https://ancordss.github.io/categories/eng/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 26 Aug 2022 19:32:23 +0000</lastBuildDate><atom:link href="https://ancordss.github.io/categories/eng/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>DevOps Ci/Cd python,docker,jenkins</title>
+      <link>https://ancordss.github.io/post/devops-project04/</link>
+      <pubDate>Fri, 26 Aug 2022 19:32:23 +0000</pubDate>
+      
+      <guid>https://ancordss.github.io/post/devops-project04/</guid>
+      <description>Steps Continuos integration merge all code work into a master branch code reviews, copile,build, unit tests,integration tests Continuos delivery deploy to test Server (in this case azure vm) UAT,QA build are delivered throughout the life cycle Continuis Deployment deploy to prod sercer or release Work Job in this case where deploy the image in the same machine where jenkins is running and if it is successful then it is going to publish it to the docker hub and then the next stage jenkins will actually deploy the image to the server</description>
+    </item>
+    
     <item>
       <title>DevOps CI/CD Project 02</title>
       <link>https://ancordss.github.io/post/devops-project02/</link>
