@@ -47,10 +47,12 @@ params:
   - eng
   - esp
   tags:
+  - DevOps
   - Development
   - Go
   - fast
   - Blogging
+  - DataEnginners
 
   assets:
     # disableHLJS: true # to disable highlight.js
