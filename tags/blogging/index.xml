@@ -10,7 +10,18 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 26 Aug 2022 19:32:23 +0000</lastBuildDate><atom:link href="https://ancordss.github.io/tags/blogging/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 23 Nov 2023 12:14:34 -0600</lastBuildDate><atom:link href="https://ancordss.github.io/tags/blogging/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Streamlining AWS CloudFormation with cfn-modules: A Time-Saving Solution</title>
+      <link>https://ancordss.github.io/post/blogging/cfn-modules1/</link>
+      <pubDate>Thu, 23 Nov 2023 12:14:34 -0600</pubDate>
+      
+      <guid>https://ancordss.github.io/post/blogging/cfn-modules1/</guid>
+      <description>Are you tired of wrestling with lengthy YAML or JSON scripts every time you deploy an AWS CloudFormation stack? Enter cfn-modules, a game-changer that can revolutionize your CloudFormation workflow and save you valuable time.
+What is cfn-modules?
+Cfn-modules is a productivity powerhouse designed to accelerate your AWS CloudFormation experience. It acts as a library of pre-built, reusable templates for various AWS services, eliminating the need to start from scratch with every deployment.</description>
+    </item>
+    
     <item>
       <title>DevOps Ci/Cd python,docker,jenkins</title>
       <link>https://ancordss.github.io/post/devops-project04/</link>

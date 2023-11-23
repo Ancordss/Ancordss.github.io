@@ -10,7 +10,34 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 09 Oct 2023 16:52:34 -0600</lastBuildDate><atom:link href="https://ancordss.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 23 Nov 2023 12:14:34 -0600</lastBuildDate><atom:link href="https://ancordss.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Blogging</title>
+      <link>https://ancordss.github.io/tags/blogging/</link>
+      <pubDate>Thu, 23 Nov 2023 12:14:34 -0600</pubDate>
+      
+      <guid>https://ancordss.github.io/tags/blogging/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Development</title>
+      <link>https://ancordss.github.io/tags/development/</link>
+      <pubDate>Thu, 23 Nov 2023 12:14:34 -0600</pubDate>
+      
+      <guid>https://ancordss.github.io/tags/development/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>fast</title>
+      <link>https://ancordss.github.io/tags/fast/</link>
+      <pubDate>Thu, 23 Nov 2023 12:14:34 -0600</pubDate>
+      
+      <guid>https://ancordss.github.io/tags/fast/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>DataEnginners</title>
       <link>https://ancordss.github.io/tags/dataenginners/</link>
@@ -21,38 +48,11 @@
     </item>
     
     <item>
-      <title>Development</title>
-      <link>https://ancordss.github.io/tags/development/</link>
-      <pubDate>Mon, 09 Oct 2023 16:52:34 -0600</pubDate>
-      
-      <guid>https://ancordss.github.io/tags/development/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>fast</title>
-      <link>https://ancordss.github.io/tags/fast/</link>
-      <pubDate>Mon, 09 Oct 2023 16:52:34 -0600</pubDate>
-      
-      <guid>https://ancordss.github.io/tags/fast/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Go</title>
       <link>https://ancordss.github.io/tags/go/</link>
       <pubDate>Mon, 09 Oct 2023 16:52:34 -0600</pubDate>
       
       <guid>https://ancordss.github.io/tags/go/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Blogging</title>
-      <link>https://ancordss.github.io/tags/blogging/</link>
-      <pubDate>Fri, 26 Aug 2022 19:32:23 +0000</pubDate>
-      
-      <guid>https://ancordss.github.io/tags/blogging/</guid>
       <description></description>
     </item>
     
