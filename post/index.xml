@@ -5,11 +5,23 @@
     <link>https://ancordss.github.io/post/</link>
     <description>Recent content in Posts on Ancordss-Blog!</description>
     <image>
-      <url>https://avatars.githubusercontent.com/u/87324382?s=400&u=3a0cbb2958a9346ac0d43164be8903afb12a511e&v=4</url>
-      <link>https://avatars.githubusercontent.com/u/87324382?s=400&u=3a0cbb2958a9346ac0d43164be8903afb12a511e&v=4</link>
+      <url>https://avatars.githubusercontent.com/u/87324382?s=400&amp;u=3a0cbb2958a9346ac0d43164be8903afb12a511e&amp;v=4</url>
+      <link>https://avatars.githubusercontent.com/u/87324382?s=400&amp;u=3a0cbb2958a9346ac0d43164be8903afb12a511e&amp;v=4</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 26 Aug 2022 19:32:23 +0000</lastBuildDate><atom:link href="https://ancordss.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language>
+    <lastBuildDate>Mon, 09 Oct 2023 16:52:34 -0600</lastBuildDate><atom:link href="https://ancordss.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Docker Go-Kafka implementation</title>
+      <link>https://ancordss.github.io/post/getting-staterd-go-with-kafka/</link>
+      <pubDate>Mon, 09 Oct 2023 16:52:34 -0600</pubDate>
+      
+      <guid>https://ancordss.github.io/post/getting-staterd-go-with-kafka/</guid>
+      <description>Prerequisites Before diving into Go and Kafka integration, ensure you have the following tools installed on your system:
+Go Docker Docker Compose Setting Up Kafka with Docker Compose To get started with Kafka, we&amp;rsquo;ll use Docker Compose to create a local Kafka environment. Below is a docker-compose.yml file that sets up Kafka with Zookeeper and Kafdrop for monitoring:
+yaml `version: &amp;#39;3&amp;#39; services: zookeeper: image: confluentinc/cp-zookeeper:7.3.2 container_name: zookeeper environment: ZOOKEEPER_CLIENT_PORT: 2181 ZOOKEEPER_TICK_TIME: 2000 broker: image: confluentinc/cp-kafka:7.</description>
+    </item>
+    
     <item>
       <title>DevOps Ci/Cd python,docker,jenkins</title>
       <link>https://ancordss.github.io/post/devops-project04/</link>
