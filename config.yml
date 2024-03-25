@@ -46,7 +46,6 @@ params:
   - cli-App
   - eng
   - esp
-  - Hola
   tags:
   - DevOps
   - Development
