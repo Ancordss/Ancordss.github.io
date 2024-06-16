@@ -17,7 +17,7 @@ minify:
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
   title: James-Maradiaga
-  description: "ExampleSite description"
+  description: "web blog created by James-Maradiaga to explain DevOps things"
   keywords: [Blog, Portfolio, PaperMod]
   author: Ancordss
   # author: ["Me", "You"] # multiple authors
