@@ -77,7 +77,7 @@ params:
   profileMode:
     enabled: true # needs to be explicitly set
     title: James Maradiaga
-    subtitle: "Go Developer | Jr DevOps | Linux enthusiast"
+    subtitle: "Go and python Developer | DevOps | Linux enthusiast | MLOps"
     imageUrl: "https://avatars.githubusercontent.com/u/87324382?s=400&u=3a0cbb2958a9346ac0d43164be8903afb12a511e&v=4"
     imageWidth: 120
     imageHeight: 120
