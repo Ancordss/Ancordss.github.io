@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Spa on Ancordss-Blog!</title>
+    <link>https://ancordss.github.io/categories/spa/</link>
+    <description>Recent content in Spa on Ancordss-Blog!</description>
+    <image>
+      <url>https://avatars.githubusercontent.com/u/87324382?s=400&amp;u=3a0cbb2958a9346ac0d43164be8903afb12a511e&amp;v=4</url>
+      <link>https://avatars.githubusercontent.com/u/87324382?s=400&amp;u=3a0cbb2958a9346ac0d43164be8903afb12a511e&amp;v=4</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 24 Oct 2025 22:18:56 +0000</lastBuildDate><atom:link href="https://ancordss.github.io/categories/spa/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Infografia Redes Neuronales</title>
+      <link>https://ancordss.github.io/post/ia/</link>
+      <pubDate>Fri, 24 Oct 2025 22:18:56 +0000</pubDate>
+      
+      <guid>https://ancordss.github.io/post/ia/</guid>
+      <description>======================================================================================================================
+I. Introducción: El Ecosistema de la Inteligencia Artificial y la Configuración del Entorno Práctico A. Contextualización y Definiciones Fundamentales El &amp;ldquo;Curso intensivo de redes neuronales&amp;rdquo; impartido por Irving Vasquez 1 constituye una exploración estructurada de los fundamentos teóricos y prácticos que sustentan el campo moderno de la inteligencia artificial. Para navegar este dominio, el curso establece, en primer lugar, una jerarquía conceptual precisa, distinguiendo entre los términos que a menudo se usan indistintamente.</description>
+    </item>
+    
+  </channel>
+</rss>

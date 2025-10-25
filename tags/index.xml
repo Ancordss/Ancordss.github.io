@@ -10,13 +10,22 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 23 Nov 2023 12:14:34 -0600</lastBuildDate><atom:link href="https://ancordss.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 24 Oct 2025 22:18:56 +0000</lastBuildDate><atom:link href="https://ancordss.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Blogging</title>
       <link>https://ancordss.github.io/tags/blogging/</link>
-      <pubDate>Thu, 23 Nov 2023 12:14:34 -0600</pubDate>
+      <pubDate>Fri, 24 Oct 2025 22:18:56 +0000</pubDate>
       
       <guid>https://ancordss.github.io/tags/blogging/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Fast</title>
+      <link>https://ancordss.github.io/tags/fast/</link>
+      <pubDate>Fri, 24 Oct 2025 22:18:56 +0000</pubDate>
+      
+      <guid>https://ancordss.github.io/tags/fast/</guid>
       <description></description>
     </item>
     
@@ -26,15 +35,6 @@
       <pubDate>Thu, 23 Nov 2023 12:14:34 -0600</pubDate>
       
       <guid>https://ancordss.github.io/tags/development/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Fast</title>
-      <link>https://ancordss.github.io/tags/fast/</link>
-      <pubDate>Thu, 23 Nov 2023 12:14:34 -0600</pubDate>
-      
-      <guid>https://ancordss.github.io/tags/fast/</guid>
       <description></description>
     </item>
     

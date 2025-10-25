@@ -10,7 +10,34 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 23 Nov 2023 12:14:34 -0600</lastBuildDate><atom:link href="https://ancordss.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 24 Oct 2025 22:18:56 +0000</lastBuildDate><atom:link href="https://ancordss.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Automatitation</title>
+      <link>https://ancordss.github.io/categories/automatitation/</link>
+      <pubDate>Fri, 24 Oct 2025 22:18:56 +0000</pubDate>
+      
+      <guid>https://ancordss.github.io/categories/automatitation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Development</title>
+      <link>https://ancordss.github.io/categories/development/</link>
+      <pubDate>Fri, 24 Oct 2025 22:18:56 +0000</pubDate>
+      
+      <guid>https://ancordss.github.io/categories/development/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Spa</title>
+      <link>https://ancordss.github.io/categories/spa/</link>
+      <pubDate>Fri, 24 Oct 2025 22:18:56 +0000</pubDate>
+      
+      <guid>https://ancordss.github.io/categories/spa/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>DevOps</title>
       <link>https://ancordss.github.io/categories/devops/</link>
@@ -26,24 +53,6 @@
       <pubDate>Thu, 23 Nov 2023 12:14:34 -0600</pubDate>
       
       <guid>https://ancordss.github.io/categories/eng/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Development</title>
-      <link>https://ancordss.github.io/categories/development/</link>
-      <pubDate>Mon, 09 Oct 2023 16:52:34 -0600</pubDate>
-      
-      <guid>https://ancordss.github.io/categories/development/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Automatitation</title>
-      <link>https://ancordss.github.io/categories/automatitation/</link>
-      <pubDate>Fri, 26 Aug 2022 19:32:23 +0000</pubDate>
-      
-      <guid>https://ancordss.github.io/categories/automatitation/</guid>
       <description></description>
     </item>
     

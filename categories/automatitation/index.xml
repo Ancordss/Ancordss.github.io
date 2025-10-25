@@ -10,7 +10,17 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 26 Aug 2022 19:32:23 +0000</lastBuildDate><atom:link href="https://ancordss.github.io/categories/automatitation/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 24 Oct 2025 22:18:56 +0000</lastBuildDate><atom:link href="https://ancordss.github.io/categories/automatitation/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Infografia Redes Neuronales</title>
+      <link>https://ancordss.github.io/post/ia/</link>
+      <pubDate>Fri, 24 Oct 2025 22:18:56 +0000</pubDate>
+      
+      <guid>https://ancordss.github.io/post/ia/</guid>
+      <description>======================================================================================================================
+I. Introducción: El Ecosistema de la Inteligencia Artificial y la Configuración del Entorno Práctico A. Contextualización y Definiciones Fundamentales El &amp;ldquo;Curso intensivo de redes neuronales&amp;rdquo; impartido por Irving Vasquez 1 constituye una exploración estructurada de los fundamentos teóricos y prácticos que sustentan el campo moderno de la inteligencia artificial. Para navegar este dominio, el curso establece, en primer lugar, una jerarquía conceptual precisa, distinguiendo entre los términos que a menudo se usan indistintamente.</description>
+    </item>
+    
     <item>
       <title>DevOps Ci/Cd python,docker,jenkins</title>
       <link>https://ancordss.github.io/post/devops-project04/</link>
